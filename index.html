@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600">
+  <style>
+    body {
+      font-family: 'Outfit', sans-serif;
+    }
+
+  </style>
+  <title>Frontend Mentor | NFT preview card component</title>
+</head>
+
+<body class="bg-[#0E1728] flex flex-col items-center justify-center">
+  <main>
+    <article
+      class="flex flex-col items-center justify-center bg-[#18273D] rounded-xl max-w-xs mt-16 p-6 shadow-2xl mb-8">
+      <picture>
+        <img class="rounded-md" aria-hidden="true" decoding="async" src="/images/image-equilibrium.jpg"
+          alt="Equilibrium #3429 image">
+      </picture>
+      <h1 class="text-left w-full pt-4 pb-3 text-xl font-extrabold text-white">Equilibrium #3429</h1>
+
+      <p class="text-[#7F94B0] text-sm">Our Equilibrium collection promotes balance and calm.</p>
+
+      <div class="flex flex-row w-full items-center h-12">
+        <div class="flex flex-row gap-x-2 w-1/2 items-center text-sm">
+          <picture>
+            <img src="./images/icon-ethereum.svg" class="w-auto h-4" alt="">
+          </picture>
+          <p class="font-bold text-[#6DECEA]">0.041 ETH</p>
+        </div>
+        <div class="flex flex-row gap-x-2 w-1/2 items-center justify-end">
+          <picture>
+            <img src="./images/icon-clock.svg" class="w-4 h-fit" alt="">
+          </picture>
+          <p class="text-[#7F94B0]">3 days left</p>
+        </div>
+      </div>
+      <hr class="border w-full border-[#28374C] mb-4">
+      <div class="flex flex-row w-full gap-x-4 items-center">
+        <picture>
+          <img class="w-8 h-8 border border-white rounded-full" src="./images/image-avatar.png"
+            alt="Jules Wyvern avatar">
+        </picture>
+        <p class="text-[#7F94B0] text-xs">Creation of Jules Wyvern</p>
+      </div>
+    </article>
+    <div class="attribution py-4 text-slate-700 text-xs text-center max-w-xs px-16">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://goodreds.net">A Goodreds</a>.
+    </div>
+  </main>
+</body>
+
+</html>
